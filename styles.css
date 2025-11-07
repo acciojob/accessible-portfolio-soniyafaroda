@@ -1,2 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
 
+.navbar {
+    background-color: #333;
+    padding: 10px 20px;
+}
+
+.navbar ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.navbar a:hover {
+    text-decoration: underline;
+}
+
+header {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.profile {
+    text-align: center;
+    margin: 20px;
+}
+
+.profile img {
+    border-radius: 10px;
+    max-width: 300px;
+}
+
+section ul {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+section ul li {
+    background-color: #e0f7e0;
+    margin: 8px 0;
+    padding: 10px;
+    border-radius: 5px;
+}
 /* Your CSS Code here. */
